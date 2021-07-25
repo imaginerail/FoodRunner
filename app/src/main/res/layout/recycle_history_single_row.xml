@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:layout_marginTop="40dp"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/txtHotelName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="2"
+                android:padding="2dp"
+                android:text="@string/baco_tell"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="2"
+                android:padding="2dp"
+                android:text="@string/_21_8_2020"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleInside"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll2"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycleInside"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="3dp"
+            android:padding="2dp"
+            android:text="@string/total_cost"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

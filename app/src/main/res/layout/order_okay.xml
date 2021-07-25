@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/iconOkay"
+        android:layout_width="188dp"
+        android:layout_height="177dp"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/ic_okay_nopad" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconOkay"
+        android:text="@string/your_order_has_been_successfully_placed"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnOkay"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#F42617"
+        android:shadowColor="#ffffff"
+        android:text="@string/ok"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:outlineSpotShadowColor="#ffffff"/>
+
+</RelativeLayout>

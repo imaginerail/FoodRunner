@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HistoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/rlNoHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-56dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imgEmptyOrder"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_history" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgEmptyOrder"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="@string/no_orders_placed_yet"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/progressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:padding="15dp"
+        android:text="@string/your_previous_orders_are_listed_below"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txtChoose"
+        android:layout_marginBottom="25dp"
+        android:background="@color/colorPrimary" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FD4D35"
+    tools:context=".activity.ResetActivity">
+
+    <EditText
+        android:id="@+id/etOTP"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:hint="@string/otp_4_characters"
+        android:inputType="text"
+        android:maxLines="1"
+
+        />
+
+    <EditText
+        android:id="@+id/etNewPass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etOTP"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:drawableStart="@drawable/ic_password"
+        android:hint="New Password (Min. 4 Characters)"
+        android:inputType="text"
+        android:maxLines="1"
+
+        />
+
+    <EditText
+        android:id="@+id/etConNewPass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etNewPass"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:drawableStart="@drawable/ic_password"
+        android:hint="Confirm Password"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etConNewPass"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="#FB0404"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

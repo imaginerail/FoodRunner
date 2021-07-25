@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FD4D35"
+    tools:context="com.aneeq.foodrunner.fragment.ProfileFragment">
+
+
+    <LinearLayout
+        android:id="@+id/llprofileContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:weightSum="9">
+
+        <ImageView
+            android:id="@+id/imgProfileImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="4"
+            android:padding="6dp"
+            android:src="@drawable/logofood" />
+
+        <TextView
+            android:id="@+id/txtProfileName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1.5"
+            android:background="#ffffff"
+            android:text="@string/name"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtProfilePhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1.5"
+            android:background="#ffffff"
+            android:text="@string/_91_8886578867"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtProfileEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1.5"
+            android:background="#ffffff"
+            android:text="@string/email_address1"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtProfileDeliveryAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1.5"
+            android:background="#ffffff"
+            android:text="@string/delivery_address1"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/progressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

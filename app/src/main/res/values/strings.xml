@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Food Runner</string>
+    <string name="foodrunner">FoodRunner</string>
+    <string name="email_address">Email Address</string>
+    <string name="name_min_3_characters">Name (Min.3 characters)</string>
+    <string name="mobile_number_10_digits">Mobile Number(10 digits)</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="password_min_4_characters">Password (Min. 4 characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="enter_your_registered_mobile_number_and_email_below">Enter your registered mobile number and email below:</string>
+    <string name="fp_mobile_number_10_digits">Your Mobile Number (10 digits)</string>
+    <string name="next">"     "Next</string>
+    <string name="register_yourself">RegisterYourself</string>
+    <string name="arrow"><![CDATA[<-]]></string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="don_t_have_an_account_sign_up_now"><u>Don\'t have an account?Sign up now</u></string>
+    <string name="lg_mobile_number_10_digits">"     "Mobile Number (10 digits)</string>
+    <string name="password">"     "Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="faq_question"><b>Q1. Can I place order on call?</b></string>
+    <string name="faq_answers"><b>A1. Sorry, we don’t accept orders on call. However you can call us on +91-7259085922 for any help related to placing order.\n
+</b></string>
+
+    <string name="faq_fragment">
+  </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="sort">Sort</string>
+    <string name="choose_from_menu_listed_below">Choose from menu listed below:</string>
+    <string name="otp_4_characters">OTP (4 characters)</string>
+    <string name="proceed_to_cart">Proceed to Cart</string>
+    <string name="food_runner_drawer">Food Runner Drawer</string>
+    <string name="no_favourites">No Favourites</string>
+    <string name="your_previous_orders_are_listed_below">Your Previous Orders are listed below:</string>
+    <string name="name">NAME</string>
+    <string name="_91_8886578867">+91 8886578867</string>
+    <string name="email_address1">EMAIL ADDRESS</string>
+    <string name="delivery_address1">DELIVERY ADDRESS</string>
+    <string name="your_order_has_been_successfully_placed">Your order has been successfully placed!</string>
+    <string name="ok">OK</string>
+    <string name="baco_indian">Baco Indian</string>
+    <string name="rs_200">Rs.200</string>
+    <string name="baco_tell">Baco Tell</string>
+    <string name="_21_8_2020">21–8–2020</string>
+    <string name="name_of_the_restaurant">Name of the Restaurant</string>
+    <string name="rs_299_person">Rs. 299/person</string>
+    <string name="_4_5">4.5</string>
+    <string name="_1">1</string>
+    <string name="item_name">Item Name</string>
+    <string name="rs_299">Rs. 299</string>
+    <string name="add">Add</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="order_history">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="log_out">Log out</string>
+    <string name="restaurant_details">Restaurant Details</string>
+    <string name="no_orders_placed_yet">No Orders Placed Yet</string>
+    <string name="total_cost">Total Cost:</string>
+</resources>
